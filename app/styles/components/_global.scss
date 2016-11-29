@@ -1,5 +1,26 @@
-// fonts
+//- Fonts
 @font-face {
     font-family: myfont;
     src: url('../../fonts/Nickainley.ttf');
 }
+
+@font-face {
+    font-family: primerprint;
+    src: url('../../fonts/primerprint.ttf');
+}
+
+@font-face {
+    font-family: aracne;
+    src: url('../../fonts/aracne.ttf');
+}
+
+
+//- Color variables
+
+$red: #DF2935;
+$green: #86BA90;
+$yellow: #F5F3BB;
+$orange: #DFA06E;
+$brown: #412722;
+$charcoal: #323232;
+$white: #ffffff;
