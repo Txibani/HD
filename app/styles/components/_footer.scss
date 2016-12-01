@@ -1,0 +1,29 @@
+footer {
+    background: $brown;
+    color: $yellow;
+    padding: 2em 0;
+    font-weight: 100;
+    font-family: primerprint;
+    .row {
+        display: flex;
+        .logo-section {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .social-icons {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            img {
+                max-width: 30px;
+                align-self: center;
+            }
+        }
+    }
+    p {
+        margin: 0;
+        padding: 3em 0 1em;
+    }
+}
