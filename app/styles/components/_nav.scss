@@ -52,6 +52,7 @@ nav {
                 &:hover {
                     text-decoration: none;
                     color: $white;
+                    cursor: pointer;
                     &:before {
                         visibility: visible;
                         -webkit-transform: scaleX(1);

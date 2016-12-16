@@ -1,3 +1,5 @@
+
+
 .index-page {
     position: relative;
 
@@ -17,6 +19,7 @@
         height: 100vh;
         display: flex;
         justify-content: center;
+        background-attachment : fixed;
 
         // TODO OPTION1
         // background-image: url('/images/team.jpg');
@@ -31,11 +34,11 @@
         background-position: center center;
 
         h1 {
-            font-family: aracne;
+            font-family: primerprint;
             font-weight: 700;
             margin: 0;
-            font-size: 6em;
-            padding-top: 2em;
+            font-size: 8em;
+            padding-top: 15%;
 
             //TODO OPTION2
             color: $white;
@@ -139,6 +142,30 @@
                         -webkit-transform: scale(1);
                         transform: scale(1);
                     }
+                }
+            }
+        }
+    }
+
+    .testimonials {
+        padding: 5em 0;
+        #owl-demo .item {
+            .customer-said {
+                text-align: center;
+                font-family: primerprint;
+                font-size: 2em;
+                padding-bottom: 1em;
+            }
+            .customer-wrap {
+                word-spacing: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                img {
+                    max-width: 150px;
+                }
+                p {
+                    max-width: 600px;
                 }
             }
         }

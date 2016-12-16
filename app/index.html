@@ -14,6 +14,9 @@
     <!-- endbower -->
     <!-- endbuild -->
 
+    <link rel="stylesheet" href="styles/owl.carousel.css">
+    <link rel="stylesheet" href="styles/owl.theme.css">
+
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
@@ -27,7 +30,7 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div class="full-page-loader">
+    <!-- <div class="full-page-loader">
         <svg version="1.1"
              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
              x="0px" y="0px" width="97px" height="49.2px" viewBox="0 0 97 49.2" style="enable-background:new 0 0 97 49.2;"
@@ -91,7 +94,7 @@
             </g>
         </g>
         </svg>
-    </div>
+    </div> -->
 
     <div class="index-page">
         <nav>
@@ -179,8 +182,9 @@
 
         <div class="header">
             <!-- <h1>Halo Dogs</h1> -->
-            <h1>Blaa Blaa</h1>
+            <h1>Halo Dogs</h1>
         </div>
+        <div class="index-body">
 
             <div class="container intro">
                 <h3>Award Winning Dog Day Care London</h3>
@@ -222,7 +226,7 @@
             </div>
             <div class="team">
                 <h3>Meet the team</h3>
-                <div class="row">
+                <div>
                     <div class="row1">
                         <div class="team-member">
                             <img src="/images/boy.png" />
@@ -271,8 +275,46 @@
             </div>
 
             <div class="testimonials">
-            </div>
+                <div class="container">
+                <div id="owl-demo" class="owl-carousel owl-theme">
+                  <div class="item">
+                      <p class="customer-said">Daisy said about us:</p>
+                      <div class="customer-wrap">
+                          <img src="/images/female.png" />
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula
+                              sapien, dapibus non congue et, iaculis quis tellus. Proin a tellus ac felis
+                              accumsan tincidunt. Nam pulvinar dapibus mi, vel tincidunt nisl consectetur
+                              ut. Pellentesque ullamcorper et odio vel accumsan. Donec augue lorem,
+                              scelerisque ac elit pharetra, facilisis sagittis arcu.</p>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <p class="customer-said">Daisy said about us:</p>
+                      <div class="customer-wrap">
+                          <img src="/images/female.png" />
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula
+                              sapien, dapibus non congue et, iaculis quis tellus. Proin a tellus ac felis
+                              accumsan tincidunt. Nam pulvinar dapibus mi, vel tincidunt nisl consectetur
+                              ut. Pellentesque ullamcorper et odio vel accumsan. Donec augue lorem,
+                              scelerisque ac elit pharetra, facilisis sagittis arcu.</p>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <p class="customer-said">Mar said about us:</p>
+                      <div class="customer-wrap">
+                          <img src="/images/female.png" />
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula
+                              sapien, dapibus non congue et, iaculis quis tellus. Proin a tellus ac felis
+                              accumsan tincidunt. Nam pulvinar dapibus mi, vel tincidunt nisl consectetur
+                              ut. Pellentesque ullamcorper et odio vel accumsan. Donec augue lorem,
+                              scelerisque ac elit pharetra, facilisis sagittis arcu.</p>
+                      </div>
+                  </div>
+                </div>
 
+            </div>
+        </div>
+    </div>
     </div>
 
 
@@ -306,6 +348,8 @@ Company Registered in England and Wales | Company Registration No. 07310317, VAT
     <!-- endbower -->
     <!-- endbuild -->
 
+
+
     <!-- build:js scripts/plugins.js -->
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
@@ -320,6 +364,9 @@ Company Registered in England and Wales | Company Registration No. 07310317, VAT
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
     <!-- endbuild -->
+
+    <script src="scripts/owl.carousel.js"></script>
+
 
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
