@@ -1,6 +1,6 @@
 
 // Hide loader after 5 secs
-// $('.full-page-loader').delay(6000).fadeOut('slow');
+$('.full-page-loader').delay(6000).fadeOut('slow');
 
   $("#owl-demo").owlCarousel({
 

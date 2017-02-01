@@ -5,6 +5,13 @@ nav {
     position: absolute;
     display: flex;
     justify-content: space-between;
+    svg {
+        transition: all .2s ease-in-out;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
 
     ul {
         height: 70px;
@@ -13,6 +20,7 @@ nav {
         padding: 0;
         display: flex;
         justify-content: flex-end;
+        margin-right: 20px;
         li {
             display: flex;
             justify-content: center;
